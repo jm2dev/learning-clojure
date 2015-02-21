@@ -1,0 +1,40 @@
+#+TITLE: Learning Clojure
+#+AUTHOR: José Miguel Martínez Carrasco
+#+EMAIL: jm@0pt1mates.com
+
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+
+* Overview
+
+Following [[http://java.ociweb.com/mark/clojure/article.html][this tutorial]] to learn the [[http://clojure.org/][Clojure]] software language. Additionally I used the [[https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md][leiningen tutorial]] to set up projects.
+
+* Dependencies
+
+- [[http://openjdk.java.net][Java]]
+- [[https://github.com/technomancy/leiningen][Leiningen]]
+
+* Project creation
+
+#+BEGIN_SRC shell
+lein new app clojure-tutorial
+cd clojure-tutorial
+lein test
+lein run
+#+END_SRC
+
+* Time report
+
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2015-02-21 Sat 18:01]
+| Headline                              | Time   |      |
+|---------------------------------------+--------+------|
+| *Total time*                          | *0:33* |      |
+|---------------------------------------+--------+------|
+| Time report                           | 0:33   |      |
+| \emsp DONE First project for tutorial |        | 0:33 |
+#+END:
+
+** DONE First project for tutorial
+   CLOSED: [2015-02-21 Sat 18:01]
+   CLOCK: [2015-02-21 Sat 17:28]--[2015-02-21 Sat 18:01] =>  0:33
