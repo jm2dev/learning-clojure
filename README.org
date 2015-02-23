@@ -38,3 +38,6 @@ lein run
 ** DONE First project for tutorial
    CLOSED: [2015-02-21 Sat 18:01]
    CLOCK: [2015-02-21 Sat 17:28]--[2015-02-21 Sat 18:01] =>  0:33
+** DONE Collections
+   CLOSED: [2015-02-23 Mon 22:54]
+   CLOCK: [2015-02-23 Mon 22:32]--[2015-02-23 Mon 22:54] =>  0:22
